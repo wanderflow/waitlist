@@ -1,2 +1,2 @@
-# waitlist
+# wanderflow
 landing page for wanderone
