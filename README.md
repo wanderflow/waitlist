@@ -1,3 +1,3 @@
 # wanderflow
-landing page for wanderone
-Just for waitlist page
+landing page for wanderone,
+This Repo is just for waitlist page
