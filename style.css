@@ -1,0 +1,106 @@
+body {
+    background-color: #152227;
+    color: white;
+    transition: all 1s ease-in-out;
+}
+
+.sentence2 {
+    font-family: Lato;
+    font-size: 24px; /* Increased by 1.5x */
+    font-weight: 500;
+    letter-spacing: 1.92px; /* Increased by 1.5x */
+}
+
+h1, .sentence2 {
+    word-wrap: break-word;
+    transition: all 1s ease-in-out;
+}
+
+h1 {
+    font-family: Lato;
+    font-size: 45px; /* Increased by 1.5x */
+    font-weight: 700;
+    line-height: 67.5px; /* Increased by 1.5x */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Increased by 1.5x */
+}
+
+.logo-name-container, .sentence2-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo, .eyes, .image {
+    transition: all 1s ease-in-out;
+}
+
+.logo, .eyes {
+    width: 91.5px; /* Increased by 1.5x */
+    height: 90px; /* Increased by 1.5x */
+}
+
+.eyes {
+    margin-right: 15px; /* Increased by 1.5x */
+}
+
+.image {
+    width: 500px; /* Increased by 1.5x */
+    height: 500px; /* Increased by 1.5x */
+    border-radius: 50%;
+}
+
+.join-waitlist-button {
+    background-image: linear-gradient(to right, #94a1ab, #2A4045);
+    color: white;
+    border: none;
+    font-family: lexend;
+    font-weight: 700;
+    border-radius: 60px; /* Increased by 1.5x */
+    padding: 45px 60px; /* Increased by 1.5x */
+    font-size: 30px; /* Increased by 1.5x */
+    margin-top: 30px; /* Increased by 1.5x */
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+    transition: all 1s ease-in-out;
+}
+
+.sentence1 {
+    font-family: Lexend;
+    font-size: 20px; /* Increased by 1.5x */
+    font-style: italic;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.white-background {
+    background-color: #FFFFFF;
+}
+
+.pink-background {
+    background-image: linear-gradient(to right, #B1ECEF, #FFF7E7, #FFD585);
+    color: black;
+}
+
+.black-text {
+    color: black;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.gradient-background {
+    background: linear-gradient(to right, #2A4045, white);
+}
+
+.fade {
+    opacity: 0;
+}
