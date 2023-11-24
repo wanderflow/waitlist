@@ -11,6 +11,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 1000); // Time for the image transition
     }
 
+    setTimeout(() => {
+        changeTheme();
+    }, 2000);
+
     function changeTheme() {
         if (!isChanged) {
             // Apply the second theme
