@@ -6,9 +6,9 @@ body {
 
 .sentence2 {
     font-family: Lato;
-    font-size: 24px; /* Increased by 1.5x */
+    font-size: 24px; 
     font-weight: 500;
-    letter-spacing: 1.92px; /* Increased by 1.5x */
+    letter-spacing: 1.92px; 
 }
 
 h1, .sentence2 {
@@ -18,9 +18,9 @@ h1, .sentence2 {
 
 h1 {
     font-family: Lato;
-    font-size: 45px; /* Increased by 1.5x */
+    font-size: 45px; 
     font-weight: 700;
-    line-height: 67.5px; /* Increased by 1.5x */
+    line-height: 67.5px; 
 }
 
 .container {
@@ -28,7 +28,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Increased by 1.5x */
+    height: 100vh; 
 }
 
 .logo-name-container, .sentence2-container {
@@ -43,17 +43,17 @@ h1 {
 }
 
 .logo, .eyes {
-    width: 91.5px; /* Increased by 1.5x */
-    height: 90px; /* Increased by 1.5x */
+    width: 91.5px; 
+    height: 90px; 
 }
 
 .eyes {
-    margin-right: 15px; /* Increased by 1.5x */
+    margin-right: 15px; 
 }
 
 .image {
-    width: 500px; /* Increased by 1.5x */
-    height: 500px; /* Increased by 1.5x */
+    width: 500px; 
+    height: 500px; 
     border-radius: 50%;
 }
 
@@ -63,10 +63,10 @@ h1 {
     border: none;
     font-family: lexend;
     font-weight: 700;
-    border-radius: 60px; /* Increased by 1.5x */
-    padding: 45px 60px; /* Increased by 1.5x */
-    font-size: 30px; /* Increased by 1.5x */
-    margin-top: 30px; /* Increased by 1.5x */
+    border-radius: 60px; 
+    padding: 35px 50px; 
+    font-size: 25px; 
+    margin-top: 30px; 
     cursor: pointer;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
     transition: all 1s ease-in-out;
@@ -74,7 +74,7 @@ h1 {
 
 .sentence1 {
     font-family: Lexend;
-    font-size: 20px; /* Increased by 1.5x */
+    font-size: 20px; 
     font-style: italic;
     font-weight: 600;
     word-wrap: break-word
