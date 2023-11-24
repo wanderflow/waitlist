@@ -52,7 +52,9 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault(); // Prevent the default action of the button
         if (!isChanged) {
             changeTheme();
-            redirectToForm();
+            setTimeout(() => {
+                redirectToForm();
+            }, 2000); // Time for the theme transition
         } else {
             redirectToForm();
         }
