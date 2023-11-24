@@ -1,7 +1,7 @@
 body {
     background-color: #152227;
     color: white;
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 
 .sentence2 {
@@ -13,7 +13,7 @@ body {
 
 h1, .sentence2 {
     word-wrap: break-word;
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 
 h1 {
@@ -39,7 +39,7 @@ h1 {
 }
 
 .logo, .eyes, .image {
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 
 .logo {

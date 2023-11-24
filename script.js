@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     setInterval(() => {
         changeTheme();
-    }, 4000);
+    }, 5000);
 
     function changeTheme() {
         if (!isChanged) {
