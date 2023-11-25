@@ -11,15 +11,15 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 1000); // Time for the image transition
     }
 
-    setInterval(() => {
-        changeTheme();
-    }, 5000);
+    // setInterval(() => {
+    //     changeTheme();
+    // }, 5000);
 
     function changeTheme() {
         if (!isChanged) {
             // Apply the second theme
             document.body.classList.add('white-background');
-            document.querySelector('.sentence1').classList.add('hidden');
+            // document.querySelector('.sentence1').classList.add('hidden');
             document.querySelector('h1').classList.add('black-text');
             document.querySelector('.sentence2').classList.add('black-text');
             document.querySelector('.sentence2').textContent = 'try “Media Social”: discover your world, connect serendipitously';
@@ -27,10 +27,11 @@ document.addEventListener('DOMContentLoaded', function() {
             changeImage('.image', './images/landing2.jpg');
             document.querySelector('.eyes').src = './images/eye.png';
             document.querySelector('.join-waitlist-button').classList.add('pink-background');
+            document.querySelector('.join-waitlist-button').textContent = 'Join the Waitlist';
         } else {
             // Revert to the default theme
             document.body.classList.remove('white-background');
-            document.querySelector('.sentence1').classList.remove('hidden');
+            // document.querySelector('.sentence1').classList.remove('hidden');
             document.querySelector('h1').classList.remove('black-text');
             document.querySelector('.sentence2').classList.remove('black-text');
             document.querySelector('.sentence2').textContent = '“Social Media” promises social... but pushes media';
@@ -38,6 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
             changeImage('.image', './images/landing1.jpg');
             document.querySelector('.eyes').src = './images/eyes.png';
             document.querySelector('.join-waitlist-button').classList.remove('pink-background');
+            document.querySelector('.join-waitlist-button').textContent = 'Alternative Future';
         }
         isChanged = !isChanged; // Toggle the theme state
     }
@@ -56,9 +58,9 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault(); // Prevent the default action of the button
         if (!isChanged) {
             changeTheme();
-            setTimeout(() => {
-                redirectToForm();
-            }, 2000); // Time for the theme transition
+            // setTimeout(() => {
+            //     redirectToForm();
+            // }, 2000); // Time for the theme transition
         } else {
             redirectToForm();
         }
