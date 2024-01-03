@@ -28,10 +28,10 @@ document.addEventListener('DOMContentLoaded', function() {
             document.querySelector('.eyes').src = './images/eye.png';
             document.querySelector('.join-waitlist-button').classList.add('pink-background');
             document.querySelector('.join-waitlist-button').textContent = 'Join the Waitlist';
-            document.querySelector('email-sentence').classList.add('black-text');
-            document.querySelector('email-sentence').textContent = 'For support issues, please email '
-            document.querySelector('email-link').classList.add('black-text');
-            document.querySelector('email-link').textContent = "help.wander.one@gmail.com"
+            document.querySelector('.email-sentence').classList.add('black-text');
+            document.querySelector('.email-sentence').textContent = 'For support issues, please email '
+            document.querySelector('.email-link').classList.add('black-text');
+            document.querySelector('.email-link').textContent = "help.wander.one@gmail.com"
         } else {
             // Revert to the default theme
             document.body.classList.remove('white-background');
@@ -44,10 +44,10 @@ document.addEventListener('DOMContentLoaded', function() {
             document.querySelector('.eyes').src = './images/eyes.png';
             document.querySelector('.join-waitlist-button').classList.remove('pink-background');
             document.querySelector('.join-waitlist-button').textContent = 'Alternative Future';
-            document.querySelector('email-sentence').classList.remove('black-text');
-            document.querySelector('email-sentence').textContent = 'For support issues, please email '
-            document.querySelector('email-link').classList.remove('black-text');
-            document.querySelector('email-link').textContent = "help.wander.one@gmail.com"
+            document.querySelector('.email-sentence').classList.remove('black-text');
+            document.querySelector('.email-sentence').textContent = 'For support issues, please email '
+            document.querySelector('.email-link').classList.remove('black-text');
+            document.querySelector('.email-link').textContent = "help.wander.one@gmail.com"
         }
         isChanged = !isChanged; // Toggle the theme state
     }
