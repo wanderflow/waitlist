@@ -85,7 +85,7 @@ h1 {
 }
 
 .email-sentence {
-        color: white;
+        color: red;
 }
 
 .white-background {
@@ -148,7 +148,7 @@ h1 {
         max-width: 400px;
     }
     .email-sentence {
-        color: black;
+        color: red;
     }
 }
 
