@@ -147,6 +147,9 @@ h1 {
         height: auto;
         max-width: 400px;
     }
+    .email-sentence {
+        color: black;
+    }
 }
 
 @keyframes flashing {
