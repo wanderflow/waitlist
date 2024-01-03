@@ -9,6 +9,10 @@ a:visited {
     text-decoration: underline;
 }
 
+.email-link {
+    color: white
+}
+
 .sentence2 {
     font-family: Lato;
     font-size: 20px; 
