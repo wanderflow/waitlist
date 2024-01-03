@@ -13,6 +13,12 @@ a:visited {
     color: white
 }
 
+.email-sentence {
+    word-wrap: break-word;
+    align-items: center;
+    justify-content: center;
+}
+
 .sentence2 {
     font-family: Lato;
     font-size: 20px; 
